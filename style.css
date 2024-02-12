@@ -126,3 +126,26 @@ input:checked:before {
   width: 100%;
   padding: 12px;
 }
+
+.bands-selection {
+  margin-top: 20px;
+  margin-left: 190px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: bold;
+  padding: 12px;
+  border-radius: 8px;
+  width: 180px;
+  background: #A3E635;
+  border: none;
+  color: #0F172A;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+  .bands-selection {
+    margin-left: 80px;
+  }
+}
