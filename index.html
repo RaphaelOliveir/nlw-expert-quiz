@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+
+  <title>Quiz | Escolha sua banda</title>
+</head>
+
+<body>
+  <div class="title">
+    <h1>
+      <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNiIgaGVpZ2h0PSIzNiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iMS44MzMzMzMzMzMzMzMzMzMzIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWhhbmQtbWV0YWwiPjxwYXRoIGQ9Ik0xOCAxMi41VjEwYTIgMiAwIDAgMC0yLTJ2MGEyIDIgMCAwIDAtMiAydjEuNCIvPjxwYXRoIGQ9Ik0xNCAxMVY5YTIgMiAwIDEgMC00IDB2MiIvPjxwYXRoIGQ9Ik0xMCAxMC41VjVhMiAyIDAgMSAwLTQgMHY5Ii8+PHBhdGggZD0ibTcgMTUtMS43Ni0xLjc2YTIgMiAwIDAgMC0yLjgzIDIuODJsMy42IDMuNkM3LjUgMjEuMTQgOS4yIDIyIDEyIDIyaDJhOCA4IDAgMCAwIDgtOFY3YTIgMiAwIDEgMC00IDB2NSIvPjwvc3ZnPg==" alt="rock-and-roll">
+      Escolha uma banda:
+    </h1>
+  </div>
+
+  <div class="dropdown">
+    <input type="text" class="textBox" placeholder="Selecione uma banda" readonly>
+    <div class="option">
+      <div onclick="show('AC/DC')">
+        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iMS4xMjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgY2xhc3M9Imx1Y2lkZSBsdWNpZGUtZmlsZS1tdXNpYyI+PGNpcmNsZSBjeD0iMTQiIGN5PSIxNiIgcj0iMiIvPjxjaXJjbGUgY3g9IjYiIGN5PSIxOCIgcj0iMiIvPjxwYXRoIGQ9Ik00IDEyLjRWNGEyIDIgMCAwIDEgMi0yaDguNUwyMCA3LjVWMjBhMiAyIDAgMCAxLTIgMmgtNy41Ii8+PHBhdGggZD0iTTggMTh2LTcuN0wxNiA5djciLz48L3N2Zz4=" alt="acdc">
+        AC/DC
+      </div>
+      <div onclick="show('Nirvana')">
+        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iMS4xMjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgY2xhc3M9Imx1Y2lkZSBsdWNpZGUtZmlsZS1tdXNpYyI+PGNpcmNsZSBjeD0iMTQiIGN5PSIxNiIgcj0iMiIvPjxjaXJjbGUgY3g9IjYiIGN5PSIxOCIgcj0iMiIvPjxwYXRoIGQ9Ik00IDEyLjRWNGEyIDIgMCAwIDEgMi0yaDguNUwyMCA3LjVWMjBhMiAyIDAgMCAxLTIgMmgtNy41Ii8+PHBhdGggZD0iTTggMTh2LTcuN0wxNiA5djciLz48L3N2Zz4=" alt="nirvana">
+        Nirvana
+      </div>
+      <div onclick="show('Guns N`Roses')">
+        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iMS4xMjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgY2xhc3M9Imx1Y2lkZSBsdWNpZGUtZmlsZS1tdXNpYyI+PGNpcmNsZSBjeD0iMTQiIGN5PSIxNiIgcj0iMiIvPjxjaXJjbGUgY3g9IjYiIGN5PSIxOCIgcj0iMiIvPjxwYXRoIGQ9Ik00IDEyLjRWNGEyIDIgMCAwIDEgMi0yaDguNUwyMCA3LjVWMjBhMiAyIDAgMCAxLTIgMmgtNy41Ii8+PHBhdGggZD0iTTggMTh2LTcuN0wxNiA5djciLz48L3N2Zz4=" alt="guns">
+        Guns N'Roses
+      </div>
+      <div onclick="show('Red Hot Chilli Peppers')">
+        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iMS4xMjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgY2xhc3M9Imx1Y2lkZSBsdWNpZGUtZmlsZS1tdXNpYyI+PGNpcmNsZSBjeD0iMTQiIGN5PSIxNiIgcj0iMiIvPjxjaXJjbGUgY3g9IjYiIGN5PSIxOCIgcj0iMiIvPjxwYXRoIGQ9Ik00IDEyLjRWNGEyIDIgMCAwIDEgMi0yaDguNUwyMCA3LjVWMjBhMiAyIDAgMCAxLTIgMmgtNy41Ii8+PHBhdGggZD0iTTggMTh2LTcuN0wxNiA5djciLz48L3N2Zz4=" alt="redhot">
+        Red Hot Chilli Peppers
+      </div>
+      <div onclick="show('Charlie Brown Jr.')">
+        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iMS4xMjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgY2xhc3M9Imx1Y2lkZSBsdWNpZGUtZmlsZS1tdXNpYyI+PGNpcmNsZSBjeD0iMTQiIGN5PSIxNiIgcj0iMiIvPjxjaXJjbGUgY3g9IjYiIGN5PSIxOCIgcj0iMiIvPjxwYXRoIGQ9Ik00IDEyLjRWNGEyIDIgMCAwIDEgMi0yaDguNUwyMCA3LjVWMjBhMiAyIDAgMCAxLTIgMmgtNy41Ii8+PHBhdGggZD0iTTggMTh2LTcuN0wxNiA5djciLz48L3N2Zz4=" alt="cbj">
+        Charlie Brown Jr.
+      </div>
+    </div>
+  </div>
+
+  <button class="make-quiz">Gerar Quiz</button>
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
