@@ -144,6 +144,11 @@ input:checked:before {
   cursor: pointer;
 }
 
+.bands-selection a {
+  text-decoration: none;
+  color: #0F172A;
+}
+
 @media screen and (max-width: 480px) {
   .bands-selection {
     margin-left: 80px;

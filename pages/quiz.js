@@ -41,7 +41,3 @@ for (const item of questions) {
 
   quiz.appendChild(quizItem)
 }
-
-document.querySelector('.bands-selection').addEventListener('click', () => {
-  window.location = 'index.html'
-})
