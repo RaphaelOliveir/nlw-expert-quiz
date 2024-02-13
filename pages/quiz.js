@@ -43,5 +43,5 @@ for (const item of questions) {
 }
 
 document.querySelector('.bands-selection').addEventListener('click', () => {
-  window.location.href = '/index.html'
+  window.location.href = 'https://raphaeloliveir.github.io/nlw-expert-quiz/'
 })
