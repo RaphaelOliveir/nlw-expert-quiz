@@ -1,4 +1,7 @@
-<h1 align="center">🧑‍🚀NLW Expert</h1>
+![logo-nlw-expert](https://github.com/RaphaelOliveir/nlw-expert-quiz/assets/75098561/5538b570-be4e-44fa-88d5-1a124b237fea)
+<h1 align="center">
+  🧑‍🚀NLW Expert
+</h1>
 <img src="https://github.com/RaphaelOliveir/nlw-expert-quiz/assets/75098561/a585805e-2653-4d35-8553-88cebb3e016b" />
 
 # 📜Sobre
