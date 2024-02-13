@@ -1,5 +1,5 @@
 <h1 align="center">🧑‍🚀NLW Expert</h1>
-*[Sobre](#Sobre)*[Tecnologias](#Tecnologias)*[Layout](#Layout)*[Funcionalidades](#Funcionalidades)
+<img src="https://github.com/RaphaelOliveir/nlw-expert-quiz/assets/75098561/a585805e-2653-4d35-8553-88cebb3e016b" />
 
 # 📜Sobre
 Esse projeto foi criado no evento **NLW-EXPERT** da [Rocketseat](https://www.rocketseat.com.br/);
