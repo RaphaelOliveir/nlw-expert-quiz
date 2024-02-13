@@ -1,4 +1,4 @@
-##👋 Olá!
+## 👋 Olá!
 
 Esse projeto foi criado no evento **NLW-EXPERT** junto ao instrutor [Mayk Brito](https://github.com/maykbrito).
 
